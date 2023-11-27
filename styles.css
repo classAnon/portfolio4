@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Truculenta', sans-serif;
+}
+
+
+
+.hero {
+    height: 100vh;
+    background-color: #000000;
+    color: white;
+    font-size: 30px;
+}
+
+.logo img{
+    height: 120px;
+    width: 200px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    width: 400px;
+    justify-content: space-around;
+    font-size: 25px;
+    padding-top: 2vh;
+}
+
+
+li{
+    text-decoration: none;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-name{
+    margin: 20vh auto auto 10vw;
+}
+
+.hero-name h1{
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.hero-name p{
+    font-size: 20px;
+}
+
+.about-button{
+    height: 7vh;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 2.5vh;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.about-button:hover, .resume-button:hover{
+    background-color: #000;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+
+.about {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.about h2{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.about .headshot-class{
+    display: flex;
+    justify-content: center;
+}
+
+.headshot {
+    height: 280px;
+    width: 250px;
+    border-radius: 50%;
+    margin-bottom: 5vh;
+}
+
+.headshot-container{
+    display: flex;
+    align-items: flex-end;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+.resume-button {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 2.5vh;
+    background-color: red;
+    margin-bottom: 5vh;
+}
+
+
+#linkedin-button {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 2.5vh;
+    background-color: black;
+    margin-bottom: 5vh;
+}
+
+#linkedin-button:hover{
+    background-color: red;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+blockquote{
+    padding: 15px;
+}
+
+#projects{
+    background-color: #000000;
+}
+
+#projects h2{
+    font-weight: bolder;
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 2vh;
+}
+
+#dev-table{
+    display: flex;
+    justify-content: center;
+}
+
+#copywriting-row {
+    background-color: purple; /* Replace with your desired color */
+    color: #ffffff;
+}
+
+#real-estate-row {
+    background-color: #0b320b; /* Replace with your desired color */
+    color: #ffffff;
+}
+
+#tech-writing-row {
+    background-color: #121241; /* Replace with your desired color */
+    color: #ffffff;
+}
+
+#business-row {
+    background-color: #ab8b31; /* Replace with your desired color */
+    color: #ffffff;
+}
+
+#cannabis-row {
+    background-color: #3158ab; /* Replace with your desired color */
+    color: #ffffff;
+}
+
+  
+
+
+.project-tables{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7vh;
+    padding-bottom: 5vh;
+}
+
+@media screen and (max-width: 1000px){
+    .project-tables{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+a {
+    color: white!important;
+    text-decoration: none!important;
+}
+
+table{
+    width: 100vw;
+    height: 50vh;
+    text-align: center;
+    font-size: large;
+}
+
+table a{
+    text-decoration: underline!important;
+}
+
+table a:hover{
+    background-color: #fff;
+    background: transparent;
+    opacity: 0.2;
+    cursor: pointer;
+}
+
+table tr {
+    height: 50px;
+    border-bottom: 1px solid gray;
+}
+
+table th {
+    padding: 10px;
+    background-image: linear-gradient(to right,  rgb(105, 104, 104), rgb(173, 170, 170));
+    color: white;
+}
+
+.colspan-th {
+    background-image: none!important;
+}
+
+
+table td {
+    padding: 10px;
+    background: linear-gradient(to right, rgb(105, 104, 104), rgb(173, 170, 170));
+    color: white;
+}
+
+
+
+ul a:hover{
+    background-color: #000;
+    border: 1px solid red;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 2.5vh;
+}
+
+.socials a:hover{
+    background-color: #000;
+    border: 1px solid red;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 2.5vh;
+}
+
+footer {
+    background-color: black;
+    padding: 50px;
+}
+
+form h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 2vh;
+}
+
+
+.inputField{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vh;
+}
+
+#clientEmail, #clientName{
+    width: 500px;
+    height: 5vh;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+}
+
+#clientMsg{
+    width: 500px;
+    height: 30vh;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+#sendBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+    background-color: #fbb666;
+    color: white;
+    width: 150px;
+    height: 7vh;
+    padding: 5px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+}
+
+#sendBtn:hover{
+    background-color: #fdce98;
+    cursor: pointer;
+}
+
+.hamburger{
+    display: none;
+}
+
+.hamburger:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .hamburger {
+        display: block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 10px;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        background-color: red;
+        margin: 0px;
+    }
+
+    ul.show{
+        display: block;
+        background-color: red;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: red;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    table{
+        margin-top: 20px;
+    }
+}
