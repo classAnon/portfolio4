@@ -172,6 +172,11 @@ blockquote{
     justify-content: center;
 }
 
+#ai-row {
+    background-color: rgb(109, 112, 22); /* Replace with your desired color */
+    color: #ffffff;
+}
+
 #copywriting-row {
     background-color: purple; /* Replace with your desired color */
     color: #ffffff;
