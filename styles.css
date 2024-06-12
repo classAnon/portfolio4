@@ -187,6 +187,11 @@ blockquote{
     color: #ffffff;
 }
 
+#finance-row {
+    background-color: #704a4a; /* Replace with your desired color */
+    color: #ffffff;
+}
+
 #tech-writing-row {
     background-color: #121241; /* Replace with your desired color */
     color: #ffffff;
