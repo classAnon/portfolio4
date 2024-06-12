@@ -229,6 +229,7 @@ table{
     height: 50vh;
     text-align: center;
     font-size: large;
+    overflow: hidden;
 }
 
 table a{
@@ -385,5 +386,6 @@ form h1{
 
     table{
         margin-top: 20px;
+        overflow:hidden;
     }
 }
