@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Indie Flower', cursive;
     font-family: 'Truculenta', sans-serif;
+    overflow: hidden;
 }
 
 
@@ -132,7 +133,7 @@ li{
 
 #rcmd-button {
     margin: auto;
-    padding: auto;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
