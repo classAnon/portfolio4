@@ -122,7 +122,7 @@ li{
     align-items: center;
     justify-content: center;
     height: 7vh;
-    width: 200px;
+    width: 150px;
     font-size: 18px;
     border-radius: 2.5vh;
     background-color: red;
@@ -132,12 +132,11 @@ li{
 
 #rcmd-button {
     margin: auto;
-    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 7vh;
-    width: 200px;
+    width: 150px;
     font-size: 18px;
     border-radius: 2.5vh;
     background-color: black;
