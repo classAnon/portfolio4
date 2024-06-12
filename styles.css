@@ -156,6 +156,7 @@ blockquote{
 
 #projects{
     background-color: #000000;
+    color: #ffffff;
 }
 
 #projects h2{
@@ -172,9 +173,9 @@ blockquote{
     justify-content: center;
 }
 
-#ai-row {
+.ai-row {
     background-color: rgb(109, 112, 22); /* Replace with your desired color */
-    color: #ffffff;
+    
 }
 
 #copywriting-row {
