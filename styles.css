@@ -173,8 +173,9 @@ blockquote{
     justify-content: center;
 }
 
-.ai-row {
+#ai-row {
     background-color: rgb(109, 112, 22); /* Replace with your desired color */
+    color:rgb(109, 112, 22);
     
 }
 
