@@ -174,9 +174,7 @@ blockquote{
 }
 
 #ai-row {
-    background-color: rgb(109, 112, 22) !important; /* Replace with your desired color */
-    color: rgb(109, 112, 22) !important; /* Replace with your desired color */
-
+    background-color: rgb(109, 112, 22); /* Replace with your desired color */
 }
 
 #copywriting-row {
