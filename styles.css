@@ -132,6 +132,7 @@ li{
 
 #rcmd-button {
     margin: auto;
+    padding: auto;
     display: flex;
     align-items: center;
     justify-content: center;
