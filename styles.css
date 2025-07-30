@@ -173,31 +173,31 @@ blockquote{
 }
 
 #ai-row {
-    background-color: rgb(109, 112, 22); /* Replace with your desired color */
+    background-color: rgb(109, 112, 22)!important; /* Replace with your desired color */
 }
 
 #copywriting-row {
-    background-color: purple; /* Replace with your desired color */
+    background-color: purple!important; /* Replace with your desired color */
 }
 
 #real-estate-row {
-    background-color: #0b320b; /* Replace with your desired color */
+    background-color: #0b320b!important; /* Replace with your desired color */
 }
 
 #finance-row {
-    background-color: #704a4a; /* Replace with your desired color */
+    background-color: #704a4a!important; /* Replace with your desired color */
 }
 
 #tech-writing-row {
-    background-color: #121241; /* Replace with your desired color */
+    background-color: #121241!important; /* Replace with your desired color */
 }
 
 #business-row {
-    background-color: #ab8b31; /* Replace with your desired color */
+    background-color: #ab8b31!important; /* Replace with your desired color */
 }
 
 #web3-row {
-    background-color: #3158ab; /* Replace with your desired color */
+    background-color: #3158ab!important; /* Replace with your desired color */
 }
 
   
