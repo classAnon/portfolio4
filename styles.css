@@ -225,7 +225,6 @@ a {
 table{
     width: 100vw;
     height: 50vh;
-    text-align: center;
     font-size: large;
     overflow: hidden;
 }
