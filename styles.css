@@ -171,9 +171,7 @@ blockquote{
     justify-content: center;
 }
 
-#ai-row {
-    background-color: rgb(109, 112, 22)!important; /* Replace with your desired color */
-}
+
 
 #copywriting-row {
     background-color: purple!important; /* Replace with your desired color */
@@ -227,6 +225,10 @@ table{
     height: 50vh;
     font-size: large;
     overflow: hidden;
+}
+
+table #ai-row{
+    background-color: rgb(109, 112, 22)!important; /* Replace with your desired color */
 }
 
 table a{
