@@ -97,10 +97,11 @@ li{
 }
 
 .headshot {
-    height: 250px;
-    width: 250px;
+    height: 220px;
+    width: 220px;
     border-radius: 50%;
     margin-bottom: 5vh;
+    margin-top: 5vh;
 }
 
 .headshot-container{
