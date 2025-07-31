@@ -255,7 +255,8 @@ table th {
 .colspan-th {
     text-align: center;
     font-size: 25px;
-    background: red!important;
+    background: white!important;
+    color: black;
 }
 
 
